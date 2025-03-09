@@ -19,12 +19,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wadaxiyang.github.io","root":"/en/","images":"/en/images","scheme":"Gemini","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/en/js/config.js"></script>
 
-    <meta name="description" content="在MAC上搭建QT6 for Android开发环境">
+    <meta name="description" content="Setting up a Qt 6 for Android development environment on Mac">
 <meta property="og:type" content="article">
-<meta property="og:title" content="MAC上基于QT6配置安卓开发环境">
+<meta property="og:title" content="Setting up Qt 6 for Android Development on Mac">
 <meta property="og:url" content="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/index.html">
 <meta property="og:site_name" content="wadaxiyang&#39;s blog">
-<meta property="og:description" content="在MAC上搭建QT6 for Android开发环境">
+<meta property="og:description" content="Setting up a Qt 6 for Android development environment on Mac">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/image-20250308162742407.png">
 <meta property="og:image" content="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/image-20250308163059027.png">
@@ -51,7 +51,7 @@
 <meta property="og:image" content="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/image-20250308202343260.png">
 <meta property="og:image" content="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/d2a775cde896ebd2e2f1b9c57348f1b8_720.jpg">
 <meta property="article:published_time" content="2025-03-08T02:57:48.000Z">
-<meta property="article:modified_time" content="2025-03-08T12:27:44.285Z">
+<meta property="article:modified_time" content="2025-03-09T13:12:09.009Z">
 <meta property="article:author" content="wadaxiyang">
 <meta property="article:tag" content="QT">
 <meta property="article:tag" content="Android">
@@ -62,10 +62,10 @@
 <link rel="canonical" href="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/","path":"2025/03/08/qt-for-android-with-mac/","title":"MAC上基于QT6配置安卓开发环境"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/","path":"2025/03/08/qt-for-android-with-mac/","title":"Setting up Qt 6 for Android Development on Mac"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>MAC上基于QT6配置安卓开发环境 | wadaxiyang's blog</title>
+<title>Setting up Qt 6 for Android Development on Mac | wadaxiyang's blog</title>
   
 
 
@@ -114,7 +114,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/en/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-tags"><a href="/en/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-categories"><a href="/en/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-archives"><a href="/en/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li><li class="menu-item menu-item-切换为中文"><a href="https://siriusq.top/" rel="section" target="_blank"><i class="fa fa-language fa-fw"></i>切换为中文</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/en/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-tags"><a href="/en/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-categories"><a href="/en/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a></li><li class="menu-item menu-item-archives"><a href="/en/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li><li class="menu-item menu-item-切换为中文"><a href="https://wadaxiyang.github.io/" rel="section"><i class="fa fa-language fa-fw"></i>切换为中文</a></li>
   </ul>
 </nav>
 
@@ -139,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#MAC%E4%B8%8A%E5%9F%BA%E4%BA%8EQT6%E9%85%8D%E7%BD%AE%E5%AE%89%E5%8D%93%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="nav-number">1.</span> <span class="nav-text">MAC上基于QT6配置安卓开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEAndroid%E7%8E%AF%E5%A2%83"><span class="nav-number">1.1.</span> <span class="nav-text">配置Android环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEjdk"><span class="nav-number">1.1.1.</span> <span class="nav-text">配置jdk</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%9A%E8%BF%87creator%E9%85%8D%E7%BD%AEAndroid%E7%8E%AF%E5%A2%83"><span class="nav-number">1.1.2.</span> <span class="nav-text">通过creator配置Android环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%87%E7%94%A8sdkmanager%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE"><span class="nav-number">1.1.3.</span> <span class="nav-text">采用sdkmanager命令行工具手动配置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEAndroid%E8%99%9A%E6%8B%9F%E6%9C%BA"><span class="nav-number">1.2.</span> <span class="nav-text">配置Android虚拟机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E5%88%B0AVD"><span class="nav-number">1.3.</span> <span class="nav-text">部署到AVD</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E5%88%B0%E7%9C%9F%E6%9C%BA"><span class="nav-number">1.4.</span> <span class="nav-text">部署到真机</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Setting-up-Qt-6-for-Android-Development-on-Mac"><span class="nav-number">1.</span> <span class="nav-text">Setting up Qt 6 for Android Development on Mac</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Configure-Android-Environment"><span class="nav-number">1.1.</span> <span class="nav-text">Configure Android Environment</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Configure-JDK"><span class="nav-number">1.1.1.</span> <span class="nav-text">Configure JDK</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Configure-Android-Environment-via-Creator"><span class="nav-number">1.1.2.</span> <span class="nav-text">Configure Android Environment via Creator</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Manually-Configure-Using-the-sdkmanager-Command-Line-Tool"><span class="nav-number">1.1.3.</span> <span class="nav-text">Manually Configure Using the sdkmanager Command Line Tool</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Configure-Android-Virtual-Machine"><span class="nav-number">1.2.</span> <span class="nav-text">Configure Android Virtual Machine</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploy-to-AVD"><span class="nav-number">1.3.</span> <span class="nav-text">Deploy to AVD</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploy-to-a-Physical-Device"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to a Physical Device</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -169,7 +169,7 @@
   </nav>
 </div>
   <div class="cc-license animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
   </div>
 <script src="/en/js/switch_language.js"></script>
 
@@ -207,12 +207,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="MAC上基于QT6配置安卓开发环境 | wadaxiyang's blog">
-      <meta itemprop="description" content="在MAC上搭建QT6 for Android开发环境">
+      <meta itemprop="name" content="Setting up Qt 6 for Android Development on Mac | wadaxiyang's blog">
+      <meta itemprop="description" content="Setting up a Qt 6 for Android development environment on Mac">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          MAC上基于QT6配置安卓开发环境
+          Setting up Qt 6 for Android Development on Mac
         </h1>
 
         <div class="post-meta-container">
@@ -222,9 +222,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2025-03-08 10:57:48 / Modified: 20:27:44" itemprop="dateCreated datePublished" datetime="2025-03-08T10:57:48+08:00">2025-03-08</time>
+      <time title="Created: 2025-03-08 10:57:48" itemprop="dateCreated datePublished" datetime="2025-03-08T10:57:48+08:00">2025-03-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2025-03-09 21:12:09" itemprop="dateModified" datetime="2025-03-09T21:12:09+08:00">2025-03-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -239,79 +245,79 @@
   
 </div>
 
-            <div class="post-description">在MAC上搭建QT6 for Android开发环境</div>
+            <div class="post-description">Setting up a Qt 6 for Android development environment on Mac</div>
         </div>
       </header>
 
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="MAC上基于QT6配置安卓开发环境"><a href="#MAC上基于QT6配置安卓开发环境" class="headerlink" title="MAC上基于QT6配置安卓开发环境"></a>MAC上基于QT6配置安卓开发环境</h1><h2 id="配置Android环境"><a href="#配置Android环境" class="headerlink" title="配置Android环境"></a>配置Android环境</h2><p>也可以通过<code>Android Studio</code>来配置。好处是可以用<code>GUI</code>，但是占用空间大。</p>
-<h3 id="配置jdk"><a href="#配置jdk" class="headerlink" title="配置jdk"></a>配置jdk</h3><p>这里用<code>brew</code>直接下载</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="Setting-up-Qt-6-for-Android-Development-on-Mac"><a href="#Setting-up-Qt-6-for-Android-Development-on-Mac" class="headerlink" title="Setting up Qt 6 for Android Development on Mac"></a>Setting up Qt 6 for Android Development on Mac</h1><h2 id="Configure-Android-Environment"><a href="#Configure-Android-Environment" class="headerlink" title="Configure Android Environment"></a>Configure Android Environment</h2><p>You can also configure it using <code>Android Studio</code>. The advantage is the use of a <code>GUI</code>, although it takes up a significant amount of space.</p>
+<h3 id="Configure-JDK"><a href="#Configure-JDK" class="headerlink" title="Configure JDK"></a>Configure JDK</h3><p>Here, you can directly download it using <code>brew</code>.</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install openjdk@17</span><br></pre></td></tr></table></figure>
 
-<p>注意对于 <code>Apple Silicon</code>，<code>brew</code>下载后jdk默认路径是</p>
+<p>Note that for <code>Apple Silicon</code>, the default path for the JDK downloaded via <code>brew</code> is</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/homebrew/opt/openjdk@17</span><br></pre></td></tr></table></figure>
 
-<p>后面会用到这个路径，至于设置环境变量，将以下配置到<code>bashrc</code></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> JAVA_HOME=<span class="string">&quot;/opt/homebrew/opt/openjdk@17&quot;</span>  <span class="comment"># 对于 Apple Silicon</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="string">&quot;<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span>&quot;</span></span><br></pre></td></tr></table></figure>
+<p>You will need this path for later use. As for setting environment variables, add the following configuration to your <code>.bashrc</code> file:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> JAVA_HOME=<span class="string">&quot;/opt/homebrew/opt/openjdk@17&quot;</span>  <span class="comment"># For Apple Silicon</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="string">&quot;<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span>&quot;</span></span><br></pre></td></tr></table></figure>
 
 
 
-<h3 id="通过creator配置Android环境"><a href="#通过creator配置Android环境" class="headerlink" title="通过creator配置Android环境"></a>通过creator配置Android环境</h3><p>在网络条件允许的情况下，可以通过<code>creator</code>全自动完成安装。</p>
-<p>进入<code>creator</code>中的设备-Android。</p>
+<h3 id="Configure-Android-Environment-via-Creator"><a href="#Configure-Android-Environment-via-Creator" class="headerlink" title="Configure Android Environment via Creator"></a>Configure Android Environment via Creator</h3><p>If your network conditions allow, you can use <code>Qt Creator</code> to automatically complete the installation.</p>
+<p>Go to <code>Devices - Android</code> in <code>Qt Creator</code>.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308162742407.png" alt="image-20250308162742407"></p>
-<p>在<code>creator</code>中设置<code>jdk</code>位置，将路劲设置为之前<code>brew</code>安装的<code>jdk</code>路径，然后点击下面的设置<code>sdk</code>。<code>creator</code>会检测并开始自动补全缺失的软件包。</p>
+<p>In <code>Qt Creator</code>, set the <code>JDK</code> location to the path where you installed the <code>JDK</code> via <code>brew</code>. Then, click on the <code>SDK</code> settings below. <code>Qt Creator</code> will detect and begin automatically installing any missing packages.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308163059027.png" alt="image-20250308163059027"></p>
 <img src="image-20250308163105265.png" alt="image-20250308163105265" style="zoom: 50%;" />
 
-<p>按照引导进行即可。</p>
+<p>Follow the  instructions to complete the setup.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308163107924.png" alt="image-20250308163107924"></p>
-<p>设置后即为</p>
+<p>The result is:</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308164215256.png" alt="image-20250308164215256"></p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308164218601.png" alt="image-20250308164218601"></p>
-<p>这里需要注意<code>jdk</code>版本与<code>cmdline tool</code>的对应。<code>creator</code>实际上是通过<code>cmdline tool</code>来控制安卓<code>sdk</code>的，但是<code>cmdline tool</code>高度依赖于<code>jdk</code>版本，如果你版本不正确，将可能会出现<a target="_blank" rel="noopener" href="https://blog.csdn.net/yy_xzz/article/details/132135255">这类问题</a>。</p>
-<p>在这里<code>creator</code>也顺带将<code>Openssl</code>配置完成了<img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308164446236.png" alt="image-20250308164446236"></p>
-<h3 id="采用sdkmanager命令行工具手动配置"><a href="#采用sdkmanager命令行工具手动配置" class="headerlink" title="采用sdkmanager命令行工具手动配置"></a>采用sdkmanager命令行工具手动配置</h3><p>如果<code>creator</code>安装出错，也可以通过手动安装的方式完成安装。这里仅仅做个引路，官方写的已经很好了。访问<a target="_blank" rel="noopener" href="https://developer.android.google.cn/studio?hl=zh-cn">Android官方</a>，这里仅下载命令行工具包</p>
+<p>Here, it’s important to note the correspondence between the <code>JDK</code> version and the <code>cmdline tools</code>. <code>Qt Creator</code> actually controls the Android <code>SDK</code> through the <code>cmdline tools</code>, but the <code>cmdline tools</code> are highly dependent on the <code>JDK</code> version. If your version is incorrect, you may encounter <a target="_blank" rel="noopener" href="https://blog.csdn.net/yy_xzz/article/details/132135255">issues like these</a>.</p>
+<p>Additionally, <code>Qt Creator</code> also configures <code>OpenSSL</code> in the process.<img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308164446236.png" alt="image-20250308164446236"></p>
+<h3 id="Manually-Configure-Using-the-sdkmanager-Command-Line-Tool"><a href="#Manually-Configure-Using-the-sdkmanager-Command-Line-Tool" class="headerlink" title="Manually Configure Using the sdkmanager Command Line Tool"></a>Manually Configure Using the sdkmanager Command Line Tool</h3><p>If the installation via <code>Qt Creator</code> fails, you can also complete the installation manually. This section serves as a guide, but the official documentation is already quite comprehensive. Visit the <a target="_blank" rel="noopener" href="https://developer.android.google.cn/studio?hl=zh-cn">Android official site</a> and download only the command line tools package.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308111930417.png" alt="image-20250308111930417"></p>
-<p>配置命令行工具的详细操作参见<a target="_blank" rel="noopener" href="https://developer.android.google.cn/tools/sdkmanager?hl=zh-cn">sdkmanager  | Android Studio  | Android Developers</a></p>
-<p>主要步骤如下：</p>
+<p>For detailed instructions on configuring the command line tools, see <a target="_blank" rel="noopener" href="https://developer.android.google.cn/tools/sdkmanager?hl=zh-cn">sdkmanager | Android Studio | Android Developers</a>.</p>
+<p>The main steps are as follows:</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308112107209.png" alt="image-20250308112107209"></p>
-<p>我这里设置的路径为</p>
+<p>My path is as follow</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/Users/wadaxiyang/Library/Android/sdk</span><br></pre></td></tr></table></figure>
 
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308160544242.png" alt="image-20250308160544242"></p>
-<p>通过类似命令就可以下载对应的<code>platform-tools</code>等等，实际上和<code>creator</code>做的一样。</p>
+<p>Through similar commands, you can download the corresponding <code>platform-tools</code>, etc. This process is essentially the same as what <code>Qt Creator</code> does.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./sdkmanager <span class="string">&quot;platform-tools&quot;</span> <span class="string">&quot;platforms;android-33&quot;</span> --proxy_host=127.0.0.1 --proxy_port=9908 --proxy=http</span><br></pre></td></tr></table></figure>
 
 
 
-<h2 id="配置Android虚拟机"><a href="#配置Android虚拟机" class="headerlink" title="配置Android虚拟机"></a>配置Android虚拟机</h2><p>实际上<code>creator</code>也能够直接配置<code>Android</code>虚拟机，进入</p>
+<h2 id="Configure-Android-Virtual-Machine"><a href="#Configure-Android-Virtual-Machine" class="headerlink" title="Configure Android Virtual Machine"></a>Configure Android Virtual Machine</h2><p>In fact, <code>Qt Creator</code> can also directly configure an <code>Android</code> virtual machine. </p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308165921399.png" alt="image-20250308165921399"></p>
-<p>安装镜像</p>
+<p>Install image</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308170250522.png" alt="image-20250308170250522"></p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308165646023.png" alt="image-20250308165646023"></p>
 <img src="image-20250308165704104.png" alt="image-20250308165704104" style="zoom:50%;" />
 
-<p>选择</p>
+<p>Connfig the <code>AVD</code></p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308174812747.png" alt="image-20250308174812747"></p>
-<p>启动<code>AVD</code>即可</p>
+<p>And start <code>AVD</code></p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308174940137.png" alt="image-20250308174940137"></p>
-<h2 id="部署到AVD"><a href="#部署到AVD" class="headerlink" title="部署到AVD"></a>部署到AVD</h2><p><code>QT for Android</code>的安装过程省略。可以参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/curtis0730/article/details/132517462">macOS 安装最新 qt6_qt6 for mac-CSDN博客</a>，写的很好。</p>
-<p>使用官方示例进行检验</p>
+<h2 id="Deploy-to-AVD"><a href="#Deploy-to-AVD" class="headerlink" title="Deploy to AVD"></a>Deploy to AVD</h2><p>The installation process for <code>Qt for Android</code> is omitted here. You can refer to <a target="_blank" rel="noopener" href="https://blog.csdn.net/curtis0730/article/details/132517462">macOS Install Latest qt6_qt6 for Mac - CSDN Blog</a>, which is well-written.</p>
+<p>Use the official example to verify the setup.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308195316944.png" alt="image-20250308195316944"></p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308195423549.png" alt="image-20250308195423549"></p>
-<p>设置模拟器，注意这里要先启动AVD。</p>
+<p>Set up the emulator, noting that you need to start the AVD first.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308195951047.png" alt="image-20250308195951047"></p>
-<p>运行结果</p>
+<p>Running result</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308200038597.png" alt="image-20250308200038597"></p>
-<h2 id="部署到真机"><a href="#部署到真机" class="headerlink" title="部署到真机"></a>部署到真机</h2><p>通过<code>USB</code>真机调试与<code>AVD</code>大同小异，这里主要指一下为<code>apk</code>添加签名，以直接安装。</p>
+<h2 id="Deploy-to-a-Physical-Device"><a href="#Deploy-to-a-Physical-Device" class="headerlink" title="Deploy to a Physical Device"></a>Deploy to a Physical Device</h2><p>Deploying to a physical device via <code>USB</code> is very similar to using <code>AVD</code>. Here, we mainly focus on signing the <code>apk</code> to enable direct installation.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308201727722.png" alt="image-20250308201727722"></p>
-<p>按提示，创建并选择即可。</p>
+<p>Follow the prompts to create and select accordingly.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308201912872.png" alt="image-20250308201912872"></p>
-<p>之后<code>build</code>即可在对应目录下生成<code>apk</code>。注意我这里给出的是<code>release</code>版本。</p>
+<p>Afterwards, <code>build</code> to generate the <code>apk</code> in the corresponding directory. Note that the version I am providing here is the <code>release</code> version.</p>
 <p><img src="/en/2025/03/08/qt-for-android-with-mac/image-20250308202343260.png" alt="image-20250308202343260"></p>
-<p>效果</p>
+<p>Result </p>
 <img src="d2a775cde896ebd2e2f1b9c57348f1b8_720.jpg" alt="d2a775cde896ebd2e2f1b9c57348f1b8_720" style="zoom:50%;" />
 
     </div>
@@ -330,10 +336,10 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/" title="MAC上基于QT6配置安卓开发环境">https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/</a>
+      <a href="https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/" title="Setting up Qt 6 for Android Development on Mac">https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/</a>
   </li>
   <li class="post-copyright-license">
-      <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+      <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
   </li>
 </ul>
 </div>
@@ -364,8 +370,8 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/en/2025/02/22/cpp-for-vscode/" rel="prev" title="cpp_for_vscode">
-                  <i class="fa fa-angle-left"></i> cpp_for_vscode
+                <a href="/en/2025/02/22/cpp-for-vscode/" rel="prev" title="Setting up a C++ environment in VSCode on Mac">
+                  <i class="fa fa-angle-left"></i> Setting up a C++ environment in VSCode on Mac
                 </a>
             </div>
             <div class="post-nav-item">
