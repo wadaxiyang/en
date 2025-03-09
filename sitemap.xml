@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wadaxiyang.github.io/2025/03/08/qt-for-android-with-mac/</loc>
+    <loc>https://wadaxiyang.github.io/en/2025/03/08/qt-for-android-with-mac/</loc>
     
     <lastmod>2025-03-08</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/2024/01/08/bash-beautiful/</loc>
+    <loc>https://wadaxiyang.github.io/en/2024/01/08/bash-beautiful/</loc>
     
     <lastmod>2025-02-22</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/2025/02/22/cpp-for-vscode/</loc>
+    <loc>https://wadaxiyang.github.io/en/2025/02/22/cpp-for-vscode/</loc>
     
     <lastmod>2025-02-22</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/2025/02/21/WSL2_proxy/</loc>
+    <loc>https://wadaxiyang.github.io/en/2025/02/21/WSL2_proxy/</loc>
     
     <lastmod>2025-02-21</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/categories/index.html</loc>
+    <loc>https://wadaxiyang.github.io/en/categories/index.html</loc>
     
     <lastmod>2025-02-21</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/index.html</loc>
+    <loc>https://wadaxiyang.github.io/en/tags/index.html</loc>
     
     <lastmod>2025-02-21</lastmod>
     
@@ -57,72 +57,72 @@
   
 
   <url>
-    <loc>https://wadaxiyang.github.io/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/WSL/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/WSL/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/linux/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/linux/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/%E4%BB%A3%E7%90%86/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/%E4%BB%A3%E7%90%86/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/bash/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/bash/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/cpp/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/cpp/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/vscode/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/vscode/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/QT/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/QT/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://wadaxiyang.github.io/tags/Android/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/tags/Android/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -130,8 +130,8 @@
 
   
   <url>
-    <loc>https://wadaxiyang.github.io/categories/%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2025-03-08</lastmod>
+    <loc>https://wadaxiyang.github.io/en/categories/%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
